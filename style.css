@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    max-width: 1200px;
+    margin: auto;
+}
+main{
+    max-width: 1208px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10px;
+    height: 85vh;
+    position: relative;
+    
+  }
+  
+  main .left h1{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.983)  ;
+  }
+  
+  main .left h1 span{
+    font-size: 4rem;
+  }
+  .and-sign{
+    position: absolute;
+    font-size: 8rem;
+    color: rgba(0, 0, 0, 0.672);
+    top: 32%;
+    left:-2%;
+  }
+  
+  
+  .select-container{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 10px;
+    background-color:rgba(255, 255, 255, 0.172);
+    box-shadow: -5px 5px 10px rgba(0,0,0,0.5);
+    backdrop-filter: blur(20px);
+    width: 80%;
+    border-top-left-radius:12px ;
+    border-bottom-right-radius:10px ;
+    transition: all .5s ease;
+    height: 3.4rem;
+  
+   
+  }
+  .select-container a{
+    width: 20%;
+    color: #fdf8f8;
+    text-decoration: none;
+    background-color:rgba(168, 22, 22, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    font-style: normal;
+  
+  }
+  
+  
+  select{
+    background: transparent;
+    padding: 5px 10px;
+    width: 80%;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 500; 
+    letter-spacing: 1px;
+  }
+  selec{
+    background-color: rgba(0, 15, 55, 1);
+  
+  }
+  
+  select option{
+    background-color: rgba(0, 15, 55, 1);
+   
+  }
+  
+
+  #about{
+    max-width: 1200px;
+    margin:auto;
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  #about .left{
+    margin-left: 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #about .left h2{
+  }
+
+
+.wrapper_projects{
+}
+#projects{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+.Project_heading{
+    text-align: center;
+}
+
+.container{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:5rem;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+.card{
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("./images/lofi-bg-2.gif");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition:all .5s ease-in-out;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+.card h2{
+    color: #fdf8f8;
+    border-bottom: 2px solid white  ;
+}
+
+
+
+
+
+  /* Font Families  */
+
+  .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  .active{
+    border-bottom: 1px solid var(--color-primary);
+  }
